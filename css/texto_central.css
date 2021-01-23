@@ -1,0 +1,44 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    color: #ddd9d2;
+}
+
+main{
+    flex: 1 0 auto;
+}
+
+footer{
+    flex-shrink: 0;
+}
+
+.palavra-reservada{
+    font-weight: bold;
+}
+
+.comando{
+    color: #569cd6;
+}
+
+.string{
+    color: red;
+}
+
+@media (max-width: 767px){
+    .sumir-sm{
+        display: none;
+    }
+
+    a.centralizar-sm{
+        display: block;
+        text-align: center;
+    }
+
+    .centralizar-sm{
+        text-align: center;
+    }
+}
